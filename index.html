@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <script src="main.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Library</h1>
+    <nav>
+      <ul class="menu">
+        <li>
+          <a id="add-book-menu-item" class="add-book-item" href="javascript:void(0)" title="Add New Book">+</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+
+  </main>
+  <div class="cover" id="add-book-form-root">
+    <div class="cover open dim bg"></div>
+    <div class="outer center-child">
+      <div class="form-wrap">
+        <h3>Add New Book</h3>
+        <input type="text" class="text-input" id="book-form-title" placeholder="Title">
+        <input type="text" class="text-input" id="book-form-author" placeholder="Author's Name">
+        <input type="text" class="text-input" id="book-form-pages" placeholder="Number Of Pages">
+        <div class="controls">
+          <button type="button" class="btn btn-red rounded" id="book-form-cancel-btn">Cancel</button>
+          <button type="button" class="btn btn-green rounded" id="book-form-add-btn">Add</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="cover" id="info-cover">
+    <div class="cover open dim"></div>
+    <div class="center-child">
+      <div class="form-wrap info-wrap d-flex v-flex">
+        <h3 id="info-title" class="info-title info">Info</h3>
+        <div id="info-text" class="flex-1 auto-scroll"></div>
+        <button class="btn btn-red info-close" id="info-close-btn">X</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
