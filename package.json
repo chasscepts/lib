@@ -1,0 +1,33 @@
+{
+  "name": "lib",
+  "version": "1.0.0",
+  "description": "A Library",
+  "main": "index.js",
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.2"
+  },
+  "devDependencies": {
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.19.0"
+  },
+  "scripts": {
+    "stylelint": "npx stylelint \"**/*.scss\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chasscepts/lib.git"
+  },
+  "keywords": [],
+  "author": "Francis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chasscepts/lib/issues"
+  },
+  "homepage": "https://github.com/chasscepts/lib#readme"
+}
